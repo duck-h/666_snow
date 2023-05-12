@@ -29,32 +29,32 @@ const routes = [
   { path: "/course", name: "Course", component: Course },
   { path: "/map", name: "Map", component: Map },
   {
-    path: "/contestant_area",
-    component: () => import("@/views/ContestantArea.vue"),
+    path: "/Member_info",
+    component: () => import("@/views/Member_info.vue"),
     children: [
       {
         path: "",
-        name: "ContestantArea",
-        component: () => import("@/components/contestantArea/index.vue"),
+        name: "Member_info",
+        component: () => import("@/components/memberArea/index.vue"),
       },
       {
         path: "learning_platform",
         name: "LearningPlatform",
         component: () =>
-          import("@/components/contestantArea/LearningPlatform.vue"),
+          import("@/components/memberArea/LearningPlatform.vue"),
       },
       {
         path: "course/:id",
-        component: () => import("@/components/contestantArea/SingleCourse.vue"),
+        component: () => import("@/components/memberArea/SingleCourse.vue"),
       },
       {
         path: "quiz/:id",
-        component: () => import("@/components/contestantArea/SingleQuiz.vue"),
+        component: () => import("@/components/memberArea/SingleQuiz.vue"),
       },
       {
         path: "support",
         name: "Support",
-        component: () => import("@/components/contestantArea/Support.vue"),
+        component: () => import("@/components/memberArea/Support.vue"),
       },
     ],
   },

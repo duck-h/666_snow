@@ -63,6 +63,7 @@ window.addEventListener("scroll", () => {
           data-dropdown-placement="bottom"
         >
           <span class="sr-only">Open user menu</span>
+          <router-link to="/Member_info">
           <img
             class="w-10 h-10 rounded-full"
             src="https://tecdn.b-cdn.net/img/new/avatars/8.jpg"
@@ -70,6 +71,7 @@ window.addEventListener("scroll", () => {
             loading="lazy"
 
           />
+        </router-link>
         </button>
         <!-- Dropdown menu -->
         <div

@@ -63,7 +63,7 @@
 
                   <div class="text-center md:my-2 mt-5">
                     <!-- <button class="btn btn_hover rounded">登入</button> -->
-                    <router-link class="btn btn_hover rounded inline-block" to="/contestant_area">登入</router-link>
+                    <router-link class="btn btn_hover rounded inline-block" to="/Member_info">登入</router-link>
                   </div>
                 </form>
               </div>
