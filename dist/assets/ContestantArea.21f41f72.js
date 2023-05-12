@@ -1,0 +1,1 @@
+import{r as t,o as a,c as r,a as e,F as n,N as s,b as c}from"./index.a3db015a.js";const u={__name:"ContestantArea",setup(_){return(m,p)=>{const o=t("router-view");return a(),r(n,null,[e(s),e(o),e(c)],64)}}};export{u as default};
