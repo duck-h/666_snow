@@ -9,7 +9,7 @@
       >
         <div class="absolute flex flex-col">
           <div class="flex flex-col w-full lg:px-52 px-0">
-            <img src="../assets/images/LoginBG.png" alt="text" srcset="" />
+            
           </div>
         </div>
       </div>

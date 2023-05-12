@@ -35,7 +35,7 @@
             id="vid1"
             class="azuremediaplayer amp-default-skin"
             controls
-            poster="@/assets/images/poster.png"
+            
             data-setup='{"nativeControlsForTouch": false}'
           >
             <source
@@ -61,7 +61,6 @@
               id="vid1"
               class="azuremediaplayer amp-default-skin"
               controls
-              poster="@/assets/images/poster.png"
               data-setup='{"nativeControlsForTouch": false}'
             >
               <source
